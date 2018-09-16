@@ -1,10 +1,56 @@
 html{
-  color:#cc66ff;
-  background-color: #99ff99;
+  background-image: url("https://www.colourbox.com/preview/30902075-light-colorful-sketch-triangles-seamless-pattern.jpg");
+  color: #660066;
 
+
+}
+h1{
+  font-size: 90px;
+  font-weight: bolder;
+  color: inherit;
+}
+h3{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.background{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyjzhLPE0OegXLGrlexPQAwdNDaDXuod8vIwBIfyl4082SBm3BiQ");
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 15px;
+  color: black;
 
 }
 body{
-  background-image: url("image.jpg");
-
+  border: 10px solid pink;
+  margin: 30px;
+  padding: 30px
 }
+li{
+  ;
+  font-size: 20px;
+  width: 1500px;
+  text-align: justify;
+}
+p{
+  font-style:oblique;
+  font-size: 20px;
+}
+span{
+  background-color:white;
+}
+.container{
+  text-align: center;
+  font-family: cursive;
+  background-image: url("https://cdn.xl.thumbs.canstockphoto.com/shiny-background-shiny-abstract-silver-defocused-glitter-background-stock-image_csp22827168.jpg");
+  font-size: 20px;
+  float: left;
+  width: 800px;
+  color: #660066
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    html{
+        background-color: pink;
+        color:#660066;
+    }
+  }
