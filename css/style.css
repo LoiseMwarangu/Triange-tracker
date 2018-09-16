@@ -42,9 +42,9 @@ span{
 .container{
   text-align: center;
   font-family: cursive;
-  background-color: white;
+  background-image: url("https://cdn.xl.thumbs.canstockphoto.com/shiny-background-shiny-abstract-silver-defocused-glitter-background-stock-image_csp22827168.jpg");
   font-size: 20px;
-  float: center;
+  float: left;
   width: 800px;
   color: #660066
 }
