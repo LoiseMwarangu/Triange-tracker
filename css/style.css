@@ -1,4 +1,55 @@
 html{
-  background-image: url("https://i.pinimg.com/564x/4c/f6/a8/4cf6a84706a74fb6e0f434359a45eb08.jpg");
-  color: white;
+  background-image: url("https://www.colourbox.com/preview/30902075-light-colorful-sketch-triangles-seamless-pattern.jpg");
+  color: #660066;
+
+
 }
+h1{
+  font-size: 90px;
+  font-weight: bolder;
+  color: inherit;
+}
+h3{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.background{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyjzhLPE0OegXLGrlexPQAwdNDaDXuod8vIwBIfyl4082SBm3BiQ");
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 15px;
+  color: black;
+
+}
+body{
+  border: 5px solid pink;
+  margin: 30px;
+  padding: 30px
+}
+li{
+  ;
+  font-size: 20px;
+  width: 1500px;
+  text-align: justify;
+}
+p{
+  font-style:oblique;
+  font-size: 20px;
+}
+span{
+  background-color:white;
+}
+.container{
+  text-align: center;
+  font-family: fantasy;
+  background-color: white;
+  font-size: 20px;
+  float: center;
+  width: 800px;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: pink;
+        color: purple;
+    }
+  }
