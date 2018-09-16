@@ -24,5 +24,5 @@ I used HTML language , java script and Cascading Style Sheets to create this pro
 Incase you encounter any issues or have any questions,feel free to contact me at loisemwarangu@gmail.com
 #### License
 Triangle-tracker is licensed under MIT, the terms of which are included in
-the file labeled License. You can find my source code repository on GitHub at https://github.com/LoiseMwarangu/triangle-tracker.git
+the file labeled License. You can find my source code repository on GitHub at https://github.com/LoiseMwarangu/Triange-tracker/tree/gh-pages
 Copyright (c) {2018} **{Loise Mwarangu, moringa School}**
