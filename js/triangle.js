@@ -1,4 +1,5 @@
 alert("Please read through the instructions carefully to avoid errors");
+
 (document).ready(function() {
 ("#types form").submit(function(event) {
 var types  =["side1", "side2", "side3"];
