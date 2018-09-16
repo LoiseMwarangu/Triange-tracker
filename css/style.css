@@ -41,11 +41,12 @@ span{
 }
 .container{
   text-align: center;
-  font-family: fantasy;
+  font-family: cursive;
   background-color: white;
   font-size: 20px;
   float: center;
   width: 800px;
+  color: #660066
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
     body {
