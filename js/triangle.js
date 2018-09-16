@@ -1,17 +1,31 @@
 alert("Please read through the instructions carefully to avoid errors");
-
-(document).ready(function(types) {
-("#types form").submit(function(event) {
-var types  =["side1", "side2", "side3"];
-types.forEach(function() {
-if (" .index[0] === .index[1] " && " .index[1] === .index[2] "  && " .index[0] === .index[2] "){
-alert("This is an equilateral triangle")}
-else if (" .index[0] !== .index[1] " && " .index[1] != .index[2] " && " .index[0] !== .index[2]") {
-alert("This is a scalene triangle")
+var sideOne=parseInt(prompt("please enter length 1"));
+var sideTwo=parseInt(prompt("please enter length 2"));
+var sideThree=parseInt(prompt("please enter length 3"));
+var lengthOne=[];
+var lengthUno=lengthOne.concat(sideOne);
+var lengthTwo=[];
+var lengthDue=lengthTwo.concat(sideTwo);
+var lengthThree=[];
+var lengthTre=lengthThree.concat(sideThree)
+if ((lengthUno===lengthDue) && (lengthUno===lengthTre) && (lengthDue===lengthTre)){
+alert("Equilateral: All sides are equal.");
 }
-else if () {
-
+else if((lengthUno===lengthDue) || (lengthDue===lengthTre)||(lengthTre===lengthUno)){
+  alert("Isosceles: Exactly 2 sides are equal. ");
 }
-
+else if((lengthUno===lengthDue) || (lengthDue===lengthTre)||(lengthTre===lengthUno)){
+  alert("Isosceles: Exactly 2 sides are equal. ");
 }
-  });
+else if ((lengthUno !=lengthDue) && (lengthUno!=lengthTre)&& (lengthDue!=lengthTre)){
+  alert("Scalene: No sides are equal.");
+}
+else if((lengthUno+lengthDue) <=lengthTre || (lengthDue+lengthTre) <=lengthUno ||(lengthTre+lengthUno) <=lengthDue)){
+  alert("NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side.");
+}
+else if ((lengthUno<=0)||(lengthDue<=0)||(lengthTre<=0)){
+  alert("error:please enter values that are greater than zero");
+}
+else {
+  alert("error:please re-enter your values");
+}
