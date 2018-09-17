@@ -5,7 +5,7 @@ Everything triangular is a website that helps the user find out types of triangl
 #### Setup/Installation Requirements
 * An internet connection is mandatory
 * This website has only been tested using Chrome and Mozilla Firefox
-* To access the website,one must have this link https://loisemwarangu.github.io/triangle-tracker/triangle-tracker
+* To access the website,one must have this link https://github.com/LoiseMwarangu/Triange-tracker.git
 * Clicking on the link will show you the documents in the repository.They will be listed in blue below the red horizontal line.Scroll to and click on the desired file and the file will be displayed.
 * In one wishes to edit,Above the file content, click edit (or icon that looks like a pen). At this point, GitHub forks the repository for you and this means you can freely edit.Do not however forget to commit your changes(instructions will be at the bottom of the page)
 * You can fork then clone the file in case you need to have it on your local repository.This will also allow you to edit it.
