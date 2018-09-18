@@ -17,7 +17,7 @@ Equilateral: All sides are equal.(an example of an instance where this response 
 Isosceles: Exactly 2 sides are equal.(an example of an instance where this response would be received is if input was 66,66 and 50 respectively)
 Scalene: No sides are equal.(an example of an instance where this response would be received is if input was 45,66,99 respectively)
 NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side. (this can happen if user inputted a value that is not a number or left a field blank  for example 45,77, )
-error:please enter values that are greater than zero(for example -1,5,7)
+error:please reenter your values.an expampe of such a response is if the user inputted -1,5,7)
 ### Technologies Used
 I used HTML language , java script and Cascading Style Sheets to create this project.
 ## Support and contact details

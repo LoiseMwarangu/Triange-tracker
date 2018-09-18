@@ -21,5 +21,5 @@ else if(((lengthUno+lengthDue) <=lengthTre) || ((lengthDue+lengthTre) <=lengthUn
 alert("NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side.");
 }
  else {
-alert("error:please read re-enter your values");
+alert("error:please re-enter your values");
 }
