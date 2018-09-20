@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Everything Triangular</title>
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+   <link href="css/styles.css" type="text/css" rel="stylesheet">
+   <h1>EVERYTHING TRIΔNGULΔR</h1>
+ </head>
+ <body>
+   <div class="background">
+   <p><span>Hello!This is a website that will help you track triangle types using the lengths of different sides of your triangle</span></p>
+   <p>There are three types of triangles namely;
+     <ul>
+       <li>1sosceles triangles</li>
+       <li>Equilateral triangles</li>
+       <li>Scalene triangles</li>
+     </ul>
+   </p>
+   <h2>Instructions</h2>
+   <h3>To find out type of triangle <em>you will need to</em>:</h3>
+  <p>
+    <ol>
+        <li>Fill in all the fields required in the form with a <strong>positive number</strong> All three values should be in similar units of length.To covert your values,<a href="https://www.unitconverters.net/length-converter.html" >go to this site</a></li>
+        <li>Click on submit  after inputting your value.once this is done.you will get an alert pop up which will include your triangle type</li>
+    </ol>
+    <form>
+  <div class="triangle">
+   <div class="form-group">
+    <label for="sideOne">length of side one</label>
+    <input id="sideOne" class="form-control" type="text">
+   </div>
+   <div class="form-group">
+    <label for="sideTwo">length of side two</label>
+    <input id="sideTwo" class="form-control" type="text">
+   </div>
+   <div class="form-group">
+     <label for="sideThree">length of side three</label>
+     <input id="sideThree" class="form-control" type="text">
+   </div>
+   <!-- <input type="button" onclick="triangle" value="submit"> -->
+   <button type='submit' name="button">Submit</button>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <script src="js/script.js"></script>
+  </div>
+  </form>
+ </body>
+</html>

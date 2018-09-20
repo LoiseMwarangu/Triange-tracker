@@ -6,17 +6,19 @@ h1{
   font-size: 80px;
   font-weight: bolder;
   color:#660066;
-  background-image: url("https://www.colourbox.com/preview/30902075-light-colorful-sketch-triangles-seamless-pattern.jpg");
+background-color: white;}
+li{
+  background-color: white
 }
 .background{
   font-weight: bold;
   font-style: italic;
   font-size: 15px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU0hzTgrN_ElHmKxrlK6V4C_qABANNaX8YTo7BqtSPLXWpAiON");
-}
+background-color: white}
 p{
   font-style:oblique;
-  font-size: 30px;
+  font-size: 40px;
+  background-color: white;
 
 }
 span{
