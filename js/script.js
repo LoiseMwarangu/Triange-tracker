@@ -1,7 +1,9 @@
-alert("Please read through the instructions carefully to avoid errors");
-var sideOne=parseFloat(prompt("please enter length 1"));
-var sideTwo=parseFloat(prompt("please enter length 2"));
-var sideThree=parseFloat(prompt("please enter length 3"));
+$(document).ready(function() {
+$("form").submit(function(event) {
+event.preventDefault();
+var sideOne =parseInt($("input#sideOne").val());
+var sideTwo = parseInt($("input#sideTwo").val());
+var sideThree = parseInt($("input#sideThree").val());
 var lengthOne=[];
 var lengthUno=lengthOne.push(sideOne);
 var lengthTwo=[];
@@ -23,3 +25,5 @@ alert("NOT a triangle: The sum of the lengths of any two sides of a triangle is 
  else {
 alert("error:please re-enter your values");
 }
+});
+});

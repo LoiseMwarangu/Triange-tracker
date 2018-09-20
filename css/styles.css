@@ -1,23 +1,24 @@
 html{
   background-image: url("https://www.colourbox.com/preview/30902075-light-colorful-sketch-triangles-seamless-pattern.jpg");
   color: #660066;
-
 }
 h1{
-  font-size: 90px;
+  font-size: 80px;
   font-weight: bolder;
   color:#660066;
-  background-color: white;
+background-color: white;}
+li{
+  background-color: white
 }
 .background{
   font-weight: bold;
   font-style: italic;
   font-size: 15px;
-  background-color: white;
-}
+background-color: white}
 p{
   font-style:oblique;
-  font-size: 30px;
+  font-size: 40px;
+  background-color: white;
 
 }
 span{
@@ -28,4 +29,14 @@ span{
   text-align: center;
   font-family: fantasy;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU0hzTgrN_ElHmKxrlK6V4C_qABANNaX8YTo7BqtSPLXWpAiON");
+}
+.triangle{
+  width: 400px;
+  text-align: center;
+  background-color: white;
+  margin-left: 30%;
+
+}
+input{
+  width: 400px;
 }
